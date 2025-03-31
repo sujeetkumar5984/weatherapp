@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engineer with Sujeet</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background: linear-gradient(45deg, #ff9a9e, #fad0c4, #ffdde1);
+            color: #333;
+        }
+        header {
+            background: linear-gradient(90deg, #ff5722, #ff9800);
+            color: white;
+            padding: 20px;
+            font-size: 28px;
+            font-weight: bold;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        .container {
+            padding: 20px;
+        }
+        .videos {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .video {
+            width: 320px;
+            background: white;
+            padding: 15px;
+            border-radius: 15px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease-in-out;
+        }
+        .video:hover {
+            transform: scale(1.05);
+        }
+        .subscribe-btn {
+            display: inline-block;
+            background: #ffeb3b;
+            color: #222;
+            padding: 12px 24px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 10px;
+            margin-top: 10px;
+            transition: background 0.3s;
+        }
+        .subscribe-btn:hover {
+            background: #ffc107;
+        }
+        footer {
+            background: #222;
+            color: white;
+            padding: 20px;
+            margin-top: 30px;
+            font-size: 16px;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.3);
+        }
+        footer a {
+            color: #ffeb3b;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        footer a:hover {
+            color: #ffc107;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Engineer with Sujeet</h1>
+        <p>Your go-to destination for engineering knowledge!</p>
+        <a href="https://www.youtube.com/@EngineerWithSujeet42" target="_blank" class="subscribe-btn">Subscribe Now</a>
+    </header>
+    
+    <div class="container">
+        <h2>Latest Videos</h2>
+        <div class="videos">
+            <div class="video">
+                <iframe width="300" height="200" src="https://youtu.be/XXnLleQ9hos?si=7JlIwJVQiNqRh70O" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="video">
+                <iframe width="300" height="200" src="https://youtu.be/CggX5R8bNJI?si=Y4_OBItTblvtaqpU" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>Contact: <a href="mailto:your-sujeetk5984@">your-email@example.com</a></p>
+        <p>Follow me on <a href="#">Instagram</a> | <a href="#">Twitter</a></p>
+    </footer>
+</body>
+</html>
